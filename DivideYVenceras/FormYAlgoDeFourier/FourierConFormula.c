@@ -9,14 +9,6 @@ int main(int N, int datos[33]){
     float arguW[101], realX[101], imagX[101], realK[101], imagK[101];
     int i, k;
     
-    printf("Ingresar la cantidad de dígitos: ");
-    scanf("%d",&N);
-    
-    for (i=0; i<=(N-1); i++){
-      printf("Ingresar el valor %d: ",(i+1));
-      scanf("%d",&datos[i]);
-    }
-    
     //e^i(-2pnk/N)
     //e^(iu)=cos(u)+isen(u)
     for (k=0; k<=(N-1); k++){
