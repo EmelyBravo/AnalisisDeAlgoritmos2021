@@ -2,11 +2,12 @@
 #include <stdlib.h>
 #include <math.h>
 #define PI 3.14159265
+int datos[101];
+int N;
 
-int main(void){
-    int datos[101];
+int main(int N, int datos[33]){
     float arguW[101], realX[101], imagX[101], realK[101], imagK[101];
-    int i, k, N;
+    int i, k;
     
     printf("Ingresar la cantidad de dígitos: ");
     scanf("%d",&N);
