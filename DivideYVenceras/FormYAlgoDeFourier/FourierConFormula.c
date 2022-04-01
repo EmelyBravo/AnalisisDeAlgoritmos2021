@@ -2,12 +2,20 @@
 #include <stdlib.h>
 #include <math.h>
 #define PI 3.14159265
-int datos[101];
-int N;
 
-int main(int N, int datos[33]){
+int main(void){
     float arguW[101], realX[101], imagX[101], realK[101], imagK[101];
     int i, k;
+    int datos[101];
+    int N;
+
+    printf("Ingresar la cantidad de dígitos (debe ser potencia de 2): ");
+    scanf("%d",&n);
+    
+    for (i=0; i<=(N-1); i++){
+      printf("Ingresar el valor %d: ",(i+1));
+      scanf("%d",&datos[i]);
+    }
     
     //e^i(-2pnk/N)
     //e^(iu)=cos(u)+isen(u)
